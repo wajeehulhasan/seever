@@ -8,7 +8,7 @@ app.use((req,res,next)=>{
 })
 
 app.get('/', (req, res) => {
-  res.send('Hi I am a hello world Server program')
+  res.send('Hi I am a hello world Server')
 })
 app.get('/profile', (req, res) => {
   res.send('here is your profile')
